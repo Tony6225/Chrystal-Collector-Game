@@ -1,0 +1,108 @@
+body {
+    background-image: url("../images/stripes-light.png");
+}
+
+/*header*/
+
+.header {
+    width: 45%;
+    margin-left: 27%;
+    text-align: center;
+    background-color: #ff9900;
+}
+
+.instructions {
+    width: 75%;
+    margin: 2% 0 0 11%;
+    padding: 10px;
+    background-color: #f5e37e;
+    color: #006600;
+}
+
+.random-number {
+    width: 15%;
+    text-align: center;
+    background-color: #45c565;
+    color: #820099;
+    margin: 2% 0 0 43%;
+    font-size: 4em;
+}
+
+.crystals {
+    text-align: center;
+    width: 50%;
+    margin: 2% 0 0 25%;
+}
+
+.total-score {
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: #05c5a5;
+    font-size: 3em;
+    width: 26%;
+    margin: 2% 0 0 22%;
+    padding-bottom: 12px;
+}
+
+.wins-loses {
+    float: right;
+    position: relative;
+    text-align: center;
+    width: 26%;
+    background-color: #05c5a5;
+    margin-top: 2%;
+    margin-right: 20%;
+    font-size: 1.5em;
+}
+
+/*768px*/
+@media (max-width: 768px) {
+
+    .random-number {
+        margin-top: 3%;
+    }
+}
+
+/*640px*/
+@media (max-width: 640px) {
+
+    .crystals {
+       width: 64%;
+       margin-left: 19%
+    }
+}
+
+/*375px*/
+@media (max-width: 375px) {
+
+    .header {
+        width: 91%;
+        margin-left: 2%;
+    }
+
+    .instructions {
+        margin-left: 8%;
+    }
+
+   .random-number {
+       width: 32%;
+       margin-left: 32%;
+   }
+
+   .crystals {
+      width: 92%;
+      margin-left: 4%;
+   }
+
+   .total-score {
+       margin-left: 8%;
+       width: 35%;
+
+   }
+
+   .wins-loses {
+       width: 34%;
+       margin-right: 9%;
+   }
+}
